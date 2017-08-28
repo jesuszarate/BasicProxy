@@ -1,7 +1,11 @@
 # BasicProxy
 
+Simple HTTP Web Proxy Server implemented using sockets in python, which is capable of filtering malware from reaching a user’s system. The proxy is capable of serving multiple concurrent requests. The proxy only supports the HTTP GET method.
+
+
+
 ### Running the proxy server
-pythons proxy.py \<port\> 
+python MalwareProxy/proxy.py \<port\> 
 
 ### Stop the server
 Ctrl + C
