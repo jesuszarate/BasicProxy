@@ -1,12 +1,12 @@
 # BasicProxy
 
-###Running the proxy server
+### Running the proxy server
 pythons proxy.py \<port\> 
 
-###Stop the server
+### Stop the server
 Ctrl + C
 
-###Making a request using telnet absolute URLexample
+### Making a request using telnet absolute URLexample
 telnet localhost \<port\> 
 
 Trying 127.0.0.1...
@@ -34,6 +34,6 @@ Host: www.cs.utah.edu //-> [Press Enter]
 [Press Enter once more to let the server know you are finished]
 
 
-##Notes:
+## Notes:
 * The server will print out some stuff to the console letting the user know what's happening with the current process.
 
